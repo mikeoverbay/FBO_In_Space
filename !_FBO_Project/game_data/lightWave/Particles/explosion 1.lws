@@ -1,0 +1,1361 @@
+LWSC
+5
+
+RenderRangeType 0
+FirstFrame 0
+LastFrame 90
+FrameStep 1
+RenderRangeObject 0
+RenderRangeArbitrary 1-120
+PreviewFirstFrame 0
+PreviewLastFrame 90
+PreviewFrameStep 1
+CurrentFrame 90
+FramesPerSecond 30
+ChangeScene 0
+Plugin MasterHandler 1 .HyperVoxels
+EndPlugin
+Plugin MasterHandler 2 .SceneEditorStandardBanks
+EndPlugin
+Plugin MasterHandler 3 SceneEditor
+VERS 2
+{ CurrentWorkspace
+  Name "<default>"
+  WindowDimensions 104 116 2bc 12c
+  Divider1 0.5
+  LayoutItemFilterEnabled 0
+  LayoutItemChannelFilterEnabled 0
+  SurfaceFilterEnabled 0
+  SurfaceChannelFilterEnabled 0
+  ChannelFilterEnabled 0
+  { Bank
+    PresetID 5f434856
+    Column 5f434856 0 90
+    Column 5f434856 1 90
+    Column 5f434856 2 100
+    Column 5f434856 3 90
+    Column 5f434856 4 95
+  }
+  { SurfaceListBank
+    PresetID 5f434856
+    Column 5f434856 0 90
+    Column 5f434856 1 90
+    Column 5f434856 2 100
+    Column 5f434856 3 90
+    Column 5f434856 4 95
+  }
+  { ChannelListBank
+    PresetID 5f434856
+    Column 5f434856 0 90
+    Column 5f434856 1 90
+    Column 5f434856 2 100
+    Column 5f434856 3 90
+    Column 5f434856 4 95
+  }
+  BackgroundColorOdd 78 78 78 ff
+  BackgroundColorEven 6f 6f 6f ff
+  HierarchyIndent c
+  HighlightColor b5 b0 a5 ff
+  DefaultObjectColor b0 b0 b0 ff
+  DefaultBoneColor 60 e0 f0 ff
+  DefaultLightColor f0 c0 20 ff
+  DefaultCameraColor f0 f0 f0 ff
+  AutoApplyToViewPorts 1
+  MultiselectSimilarTypes 1
+  LimitColorRange 1
+  ColorsAsHSV 0
+  ShowSelectionOrder 1
+  EnvelopeButtonOpensGraphEditor 1
+  ShowRenderExtents 1
+  BlockPeriod 0.033333335
+  BlockWidthMin 3
+  BlockWidthMax c8
+  ShowKeyTicks 1
+  OverrideBlockColors 0
+  BlockKeyColor 99 ae cf ff
+  BlockGroupColor 64 85 b6 ff
+  DSAllowChannelGroupSelection 1
+}
+EndPlugin
+Plugin ViewportObjectHandler 1 .VPR
+0
+20
+1
+1
+0
+EndPlugin
+Plugin ViewportObjectHandler 2 .VPR
+0
+20
+1
+1
+0
+EndPlugin
+Plugin ViewportObjectHandler 3 .VPR
+0
+20
+1
+1
+0
+EndPlugin
+Plugin ViewportObjectHandler 4 .VPR
+0
+20
+1
+1
+0
+EndPlugin
+ColorSpaceViewer "Linear" "none"
+ColorSpaceSurfaceColor "Linear" "none"
+ColorSpaceLightColor "Linear" "none"
+ColorSpacePaletteFiles "Linear" "none"
+ColorSpace8BitFiles "Linear" "none"
+ColorSpaceFloatFiles "Linear" "none"
+ColorSpaceAlpha "Linear" "none"
+ColorSpaceOutput "Linear" "none"
+ColorSpaceOutputAlpha "Linear" "none"
+ColorSpaceAutoSense 0
+ColorSpace8BitToFloat 0
+ColorSpaceCorrectOpenGL 0
+ColorSpaceAffectPicker 0
+FirstBackgroundImageSyncFrame 0
+NavigationDesiredDevice (none)
+
+AddNullObject 10000000 Emitter
+ChangeObject 0
+ShowObject 7 7
+Group 0
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+IKInitCustomFrame 0
+GoalStrength 1
+IKFKBlending 0
+IKSoftMin 0.25
+IKSoftMax 0.75
+CtrlPosItemBlend 1
+CtrlRotItemBlend 1
+CtrlScaleItemBlend 1
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+SplineFlags 0
+SplineFit 0
+IKInitialState 0
+UseIKChainValues 1
+SubPatchLevel 3 3
+APSDisplay
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+APSRender
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+Plugin CustomObjHandler 1 FX_Emitter
+format 1
+ s0 0.001 0.001 0.001 
+ p0 0 0 0 120 240
+ v0 0 0 0 1 1 0
+ g0 0 0 0 1 
+ b0 0 240 1 3 1 150 0 0.7 1 0 0 1 0 0 0 0 1 0 0 1 0 1
+ ve 1 1 0 0 0 0 0 0 0 0 1 0 1 1 0.1 0 0
+EndPlugin
+Plugin CustomObjHandler 2 HyperVoxelsDrawing
+EndPlugin
+NodeDisplacement 0
+{ Nodal_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Displacement"
+    { Tag
+      RealName "Displacement"
+      Name "Displacement"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+    Server "Input"
+    { Tag
+      RealName "Input"
+      Name "Input"
+      Coordinates -30 -10
+      Mode 1
+      { Data
+      }
+      Preview "Object Position"
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+NodeDisplacementOrder 0
+UseObjGI 0
+ObjGIRadiosityRays 64
+ObjGISecondaryBounceRays 16
+ObjGIRadiosityTolerance 0.292893
+ObjGIMinPixelSpacing 4.000000
+ObjGIMaxPixelSpacing 100.000000
+ShadowOptions 7
+NodeEdges 0
+{ NodalEdge_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Edge"
+    { Tag
+      RealName "Edge"
+      Name "Edge"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+
+AddNullObject 10000001 Emitter2
+ChangeObject 0
+ShowObject 7 7
+Group 0
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+IKInitCustomFrame 0
+GoalStrength 1
+IKFKBlending 0
+IKSoftMin 0.25
+IKSoftMax 0.75
+CtrlPosItemBlend 1
+CtrlRotItemBlend 1
+CtrlScaleItemBlend 1
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+SplineFlags 0
+SplineFit 0
+IKInitialState 0
+UseIKChainValues 1
+SubPatchLevel 3 3
+APSDisplay
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+APSRender
+{ APS
+  Version 1
+  Method 0
+  { VParm
+    { ObjectLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonLevel
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          3
+          0
+        }
+      }
+    }
+    { PolygonPixelSize
+      0
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          256
+          0
+        }
+      }
+    }
+  }
+}
+Plugin CustomObjHandler 1 FX_Emitter
+format 1
+ s0 0.001 0.001 0.001 
+ p0 0 0 0 30 30
+ v0 0 0 0 1 1 0
+ g0 0 0 0 1 
+ b0 0 30 1 1 0 90 0 2 0.48 0 -1 1 0 0 0 0 1 0 0 1 0 1
+ ve 5 10 0 0 0 0 0 0 0 0 1 0 1 1 0.1 0 0
+EndPlugin
+Plugin CustomObjHandler 2 HyperVoxelsDrawing
+EndPlugin
+NodeDisplacement 0
+{ Nodal_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Displacement"
+    { Tag
+      RealName "Displacement"
+      Name "Displacement"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+    Server "Input"
+    { Tag
+      RealName "Input"
+      Name "Input"
+      Coordinates -30 -10
+      Mode 1
+      { Data
+      }
+      Preview "Object Position"
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+NodeDisplacementOrder 0
+UseObjGI 0
+ObjGIRadiosityRays 64
+ObjGISecondaryBounceRays 16
+ObjGIRadiosityTolerance 0.292893
+ObjGIMinPixelSpacing 4.000000
+ObjGIMaxPixelSpacing 100.000000
+ShadowOptions 7
+NodeEdges 0
+{ NodalEdge_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Edge"
+    { Tag
+      RealName "Edge"
+      Name "Edge"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+  }
+  { Connections
+  }
+}
+
+AmbientColor 1 1 1
+AmbientIntensity 0.05
+DoubleSidedAreaLights 0
+EnableLensFlares 0
+EnableShadowMaps 0
+EnableVolumetricLights 0
+RadiosityType 1
+RadiosityInterpolated 1
+RadiosityTransparency 0
+RadiosityIntensity 1
+RadiosityTolerance 0.2928932
+RadiosityRays 100
+SecondaryBounceRays 50
+RadiosityMinPixelSpacing 3
+RadiosityMaxPixelSpacing 100
+RadiosityMultiplier 1
+RadiosityDirectionalRays 0
+RadiosityUseGradients 0
+RadiosityUseBehindTest 1
+BlurRadiosity 1
+RadiosityFlags 0
+RadiosityCacheModulus 1
+RadiositySaveEachFrame 0
+RadiosityCacheFilePath Radiosity/radiosity.cache
+PixelFilterForceMT 0
+
+AddLight 20000000
+LightName Light
+ShowLight 1 6
+LightMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  2
+  Key -2 0 0 0 0 0 0 1.999404939006248 0
+  Key 0 0.93333333333333313 0 0 0 0 1.999404939006248 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  2
+  Key 2 0 0 0 0 0 0 -0.099970270785076629 0
+  Key 1.8999999761581421 0.93333333333333313 0 0 0 0 -0.099970270785076629 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  2
+  Key -2 0 0 0 0 0 0 1.999404939006248 0
+  Key 0 0.93333333333333313 0 0 0 0 1.999404939006248 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  2
+  Key 0.78539816339744828 0 0 0 0 0 0 2.1849192295745078e-008 0
+  Key 0.78539818525314331 0.93333333333333313 0 0 0 0 2.1849192295745078e-008 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  2
+  Key 0.6108652381980153 0 0 0 0 0 0 -2.868487270583264e-009 0
+  Key 0.61086523532867432 0.93333333333333313 0 0 0 0 -2.868487270583264e-009 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  2
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.93333333333333313 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  2
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.93333333333333313 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  2
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.93333333333333313 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  2
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.93333333333333313 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+IKInitCustomFrame 0
+GoalStrength 1
+IKFKBlending 0
+IKSoftMin 0.25
+IKSoftMax 0.75
+CtrlPosItemBlend 1
+CtrlRotItemBlend 1
+CtrlScaleItemBlend 1
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+SplineFlags 0
+SplineFit 0
+IKInitialState 0
+UseIKChainValues 1
+LightColor 1 1 1
+LightIntensity 1
+AffectCaustics 1
+LightType 1
+LightFalloffType 0
+LensFlare 0
+FlareIntensity 0.5
+FlareDissolve 0
+LensFlareFade 4
+LensFlareOptions 11
+FlareRingColor 0.3137 0.0784 0.0392
+FlareRingSize 0.22
+FlareRandStreakInt 0.03
+FlareRandStreakDens 50
+FlareRandStreakSharp 6
+ShadowType 1
+ShadowColor 0 0 0
+Plugin LightHandler 1 PointLight
+EndPlugin
+
+AddCamera 30000000
+CameraName Camera
+ShowCamera 1 14
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -5 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+IKInitCustomFrame 0
+GoalStrength 1
+IKFKBlending 0
+IKSoftMin 0.25
+IKSoftMax 0.75
+CtrlPosItemBlend 1
+CtrlRotItemBlend 1
+CtrlScaleItemBlend 1
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+SplineFlags 0
+SplineFit 0
+IKInitialState 0
+UseIKChainValues 1
+ZoomFactor 4
+ZoomType 0
+ResolutionMultiplier 1.0
+FrameSize 256 256
+PixelAspect 1
+MotionBlur 1
+MotionBlurPasses 1
+ShutterEfficiency 1
+RollingShutter 0
+ShutterOpen 0
+Oversampling 0
+UndockPreview 0
+FieldRendering 0
+ApertureHeight 0.0032
+EyeSeparation 0.07
+ConvergencePoint 1
+UseConvergence 0
+StereoTrackedEye 0
+StereoOpenGL 1
+ConvergenceToeIn 1
+BlurLength 0.5
+DepthOfField 0
+FocalDistance 1
+LensFStop 4
+DiaphragmSides 0
+DiaphragmRotation 0
+AASamples 1
+Sampler 0
+AdaptiveThreshold 0.01
+MinimumSamples 1
+MaximumSamples 9
+Plugin CameraHandler 1 Orthographic
+{ ACT
+  Version 1
+  { VParm
+    { Size
+      1
+      { VariantParameter
+        3
+        0
+        { ParameterValue
+          0.69999999
+          0
+        }
+      }
+    }
+  }
+}
+EndPlugin
+
+Antialiasing 2
+AntiAliasingLevel -1
+ReconstructionFilter 0
+AdaptiveSampling 1
+
+UseBackgroundColor 1
+BackgroundColor 0 0 0
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0.6196 0.736 1
+SkyColor 0.8824 0.9177 1
+GroundColor 0.8824 0.9177 1
+NadirColor 0.1216 0.0948 0.083
+SkySqueezeAmount 6
+GroundSqueezeAmount 6
+FogType 0
+FogMinDistance 0
+FogMaxDistance 1
+FogMinAmount 0
+FogMaxAmount 1
+FogColor 0.5098 0.5098 0.549
+BackdropFog 0
+CopyToPerspective 0
+VolClipDiscanceOn 0
+VolumeClipDiscance 0.001
+Plugin VolumetricHandler 1 HyperVoxelsFilter
+{ HyperVoxelData
+  HVFlags 2 0 2 1
+  HVBlendingGroups 0
+  { HVObject
+    { HVLink
+      "10000000"
+    }
+    { HVFlags
+      "Emitter"
+      1 1 0 2 0 0 0
+    }
+    { HVChannels
+      Dissolve 0 0
+      ParticleSize 0.050000001 0
+      Color 0.78399998 0.78399998 0.78399998 0
+      VOpacity 1 0
+      VColor 1 1 1 0
+      NearClip 0.0012277026 0
+      VLight1 536870912
+      TextureEffect 6
+      EffectSpeed 0.235
+      TextureAmplitude 1.29 0
+      StretchAmount 9 0
+      StretchDirection 4
+      AlignToPath 1
+      Slices 0
+      OrientSlices 0
+    }
+    { HVTextures
+      { TextureBlock
+        1
+        { Texture
+          { Gradient
+            "(-128)"
+            Channel 1
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          ParamName "Particle Age"
+          ItemName "(none)"
+          GradStart 0
+          GradEnd 1
+          GradRepeat 0
+          KeyFloats 0 0 0 0 1 0.045614034 0.97018057 0 0 1 0.39649123 2 2 2 1
+          KeyInts 1 1 1
+        }
+      }
+      { TextureBlock
+        7
+        { Texture
+          { Gradient
+            "(-128)"
+            Channel 7
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          ParamName "Previous Layer"
+          ItemName "(none)"
+          GradStart 0
+          GradEnd 1
+          GradRepeat 0
+          KeyFloats 0.003508772 1 1 1 1 0.58947366 1 1 1 1 0.96140349 1 0.015686275 0.027450982 1
+          KeyInts 1 1 1
+        }
+      }
+      { TextureBlock
+        33
+        { Texture
+          { Gradient
+            "(-128)"
+            Channel 33
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          ParamName "Time"
+          ItemName "(none)"
+          GradStart 0
+          GradEnd 3
+          GradRepeat 0
+          KeyFloats 0 1 1 1 1 2.1052632 1 0 0 1 3 0 0 0 1
+          KeyInts 1 1 1
+        }
+      }
+      { TextureBlock
+        35
+        { Texture
+          { Gradient
+            "(-128)"
+            Channel 35
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          ParamName "Particle Age"
+          ItemName "(none)"
+          GradStart 0
+          GradEnd 3
+          GradRepeat 0
+          KeyFloats 0 1 0.98431379 0.019607844 1 0.23157895 1 0.015686275 0.0078431377 1 1.0315789 0.38442501 0.22377974 0.08722014 1 1.6421052 0.33333334 0.33333334 0.33333334 1 2.5157895 0.16470589 0.16470589 0.16470589 1 3 0 0 0 1
+          KeyInts 1 1 0 0 0 0
+        }
+      }
+      { TextureBlock
+        52
+        { Texture
+          { Gradient
+            "(-128)"
+            Channel 52
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          ParamName "Particle Age"
+          ItemName "(none)"
+          GradStart 0
+          GradEnd 1
+          GradRepeat 0
+          KeyFloats 0 0.25999999 0.25999999 0.25999999 1 0.17192982 0.69222891 0.69222891 0.69222891 1 0.37894738 0.5 0.5 0.5 1 1 0.375 0.375 0.375 1
+          KeyInts 1 1 1 1
+        }
+      }
+      { TextureBlock
+        -1
+        { Texture
+          { Procedural
+            "(-128)"
+            Channel -1
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          { TextureMap
+            { Center
+              0 0 0
+              0
+            }
+            { Size
+              1 1 1
+              0
+            }
+            { Rotation
+              0 0 0
+              0
+            }
+            { Falloff
+              0
+              0 0 0
+              0
+            }
+            RefObject "(none)"
+            Coordinates 0
+          }
+          Axis 2
+          TextureValue 1
+          { Func
+            "Turbulence"
+            3
+            0
+            0.5
+          }
+        }
+      }
+    }
+    { Shaders
+    }
+    { HVParticles
+      Color 0 "(none)"
+      Weight 0 "(none)"
+    }
+    { HVoxelCache
+      FileName ""
+      Min 0 0 0
+      Max 0 0 0
+      FileType "4XStoryboard"
+    }
+  }
+  { HVObject
+    { HVLink
+      "10000001"
+    }
+    { HVFlags
+      "Emitter2"
+      1 1 0 2 0 0 0
+    }
+    { HVChannels
+      ParticleSize 0.012391664 0
+      SizeVariation 0.28 0
+      VLuminosity 1.5 0
+      VOpacity 1 0
+      VColor 0.78399998 0.78399998 0.78399998 0
+      NearClip 0.0004783328 0
+      UseAllLights 0
+      VLight1 536870912
+      TextureEffect 6
+      EffectSpeed 0.29499999
+      TextureAmplitude 0.81 0
+      StretchAmount 2 0
+      StretchDirection 4
+      AlignToPath 1
+      MaintainVolume 0
+      Slices 1
+      OrientSlices 0
+      BlendingOnOff 1
+      UseParticleOrienation 0
+    }
+    { HVTextures
+      { TextureBlock
+        1
+        { Texture
+          { Gradient
+            "(-128)"
+            Channel 1
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          ParamName "Particle Age"
+          ItemName "(none)"
+          GradStart 0
+          GradEnd 1
+          GradRepeat 0
+          KeyFloats 0 0.60000002 0.60000002 0.60000002 1 0.25263157 1 0 0 1 0.62456143 5 5 5 1 0.96140349 10 10 10 1
+          KeyInts 1 1 1 1
+        }
+      }
+      { TextureBlock
+        32
+        { Texture
+          { Gradient
+            "(-128)"
+            Channel 32
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          ParamName "Particle Age"
+          ItemName "(none)"
+          GradStart 0
+          GradEnd 3
+          GradRepeat 0
+          KeyFloats 0.003508772 2.4649999 2.4649999 2.4649999 1 1.6315789 0.28999999 0.28999999 0.28999999 1 2.8736842 0 0 0 1
+          KeyInts 1 1 1
+        }
+      }
+      { TextureBlock
+        33
+        { Texture
+          { Gradient
+            "(-128)"
+            Channel 33
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          ParamName "Particle Age"
+          ItemName "(none)"
+          GradStart 0
+          GradEnd 3
+          GradRepeat 0
+          KeyFloats 0 1 1 1 1 2.3789473 1 0 0 1 3 0 0 0 1
+          KeyInts 1 1 1
+        }
+      }
+      { TextureBlock
+        35
+        { Texture
+          { Gradient
+            "(-128)"
+            Channel 35
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          ParamName "Time"
+          ItemName "(none)"
+          GradStart 0
+          GradEnd 3
+          GradRepeat 0
+          KeyFloats 0 1 1 1 1 0.29473683 1 0.96078438 0.035294119 1 1.6105263 0.46579838 0.34096232 0 1 2.8842106 0 0 0 1 3 0 0 0 0
+          KeyInts 1 1 1 1 1
+        }
+      }
+      { TextureBlock
+        52
+        { Texture
+          { Gradient
+            "(-128)"
+            Channel 52
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          ParamName "Time"
+          ItemName "(none)"
+          GradStart 0
+          GradEnd 3
+          GradRepeat 0
+          KeyFloats 0 0.745 0.745 0.745 1 0.40000001 0.51499999 0.51499999 0.51499999 1 3 4.145 4.145 4.145 1
+          KeyInts 1 1 1
+        }
+      }
+      { TextureBlock
+        54
+        { Texture
+          { Gradient
+            "(-128)"
+            Channel 54
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          ParamName "Particle Age"
+          ItemName "(none)"
+          GradStart 0
+          GradEnd 3
+          GradRepeat 0
+          KeyFloats 0 -1.3444107e-015 -1.3444107e-015 -1.3444107e-015 1 0.11578947 3 3 3 1 0.2631579 5 5 5 1
+          KeyInts 1 1 1
+        }
+      }
+      { TextureBlock
+        -1
+        { Texture
+          { Procedural
+            "(-128)"
+            Channel -1
+            { Opacity
+              0
+              1
+              0
+            }
+            Enable 1
+            Negative 0
+          }
+          { TextureMap
+            { Center
+              0 0 0
+              0
+            }
+            { Size
+              1 1 1
+              0
+            }
+            { Rotation
+              0 0 0
+              0
+            }
+            { Falloff
+              0
+              0 0 0
+              0
+            }
+            RefObject "(none)"
+            Coordinates 0
+          }
+          Axis 2
+          TextureValue 1
+          { Func
+            "Crumple"
+            4
+            0.75
+          }
+        }
+      }
+    }
+    { Shaders
+    }
+    { HVParticles
+      Color 0 "(none)"
+      Weight 0 "(none)"
+    }
+    { HVoxelCache
+      FileName ""
+      Min 0 0 0
+      Max 0 0 0
+      FileType "4XStoryboard"
+    }
+  }
+}
+EndPlugin
+DynamicRangeMin 0
+DynamicRangeLimit 1
+DitherIntensity 0
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DepthBufferAA 0
+RenderLines 0
+RenderInstances 0
+RayRecursionLimit 6
+RayPrecision 6
+RayCutoff 0.01
+ShadingSamples 1
+LightSamples 1
+DataOverlayLabel  
+SaveAnimationName C:\!_FBO_Project\!_FBO_Project\game_data\effects\explosion\unnamed.avi
+AnimationSaver DirectShow(.avi)
+30
+3
+EndPlugin
+OutputFilenameFormat 3
+SaveRGB 1
+SaveRGBImagesPrefix C:\!_FBO_Project\!_FBO_Project\game_data\effects\explosion\explosion 1_rgb
+RGBImageSaver LW_PNG32(.png)
+SaveAlpha 0
+SaveAlphaImagesPrefix C:\!_FBO_Project\!_FBO_Project\game_data\effects\explosion\explosion 1_alpha
+AlphaImageSaver LW_TIFF32(.tif)
+
+ViewConfiguration 0
+DefineView 0
+ViewType 9
+ViewLevel 5
+ViewAimpoint 0 0 0
+ViewZoomFactor 26.53821
+ViewXRay 1
+ViewMBDofPreview 0
+ViewHeadlight 0
+
+GridNumber 10
+GridSize 1
+CameraViewBG 0
+ShowMotionPath 0
+ShowFogRadius 0
+ShowFogEffect 0
+ShowFieldChart 0
+OverlayColor_fv 0 0 0
+MeshBackgroundGroup 1
+Plugin VirtualStudio 1 VirtualStudio
+{ Version
+  2
+  Active 1
+  LIVE 0
+  LIVE_FPS 30
+  Play 0
+  Arm 0
+  PunchIn 0
+  PunchOut 0
+}
+EndPlugin
+
+CurrentObject 1
+CurrentLight 0
+CurrentCamera 0
+GraphEditorData
+{ GraphEd_Favorites
+}
+{ GE_Expression_Lib
+  1
+}
+ImageEditorData
+NumberOfClips 0

@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{5BF23CBA-6B79-483E-976B-AB7FA0CB0F43}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Water</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="game_data\environment\asteroid.ac" />
+    <None Include="game_data\environment\asteroid.ac.bak" />
+    <None Include="game_data\environment\asteroid.mtl" />
+    <None Include="game_data\environment\asteroid.obj" />
+    <None Include="game_data\environment\asteroid.x" />
+    <None Include="game_data\environment\asteroids.3ds" />
+    <None Include="game_data\environment\asteroid_hd.ac" />
+    <None Include="game_data\environment\asteroid_hd.ac.bak" />
+    <None Include="game_data\environment\asteroid_hd.mtl" />
+    <None Include="game_data\environment\asteroid_hd.obj" />
+    <None Include="game_data\environment\asteroid_HD.x" />
+    <None Include="game_data\environment\back_lights.ac" />
+    <None Include="game_data\environment\back_lights.obj" />
+    <None Include="game_data\environment\back_lights.x" />
+    <None Include="game_data\environment\chopper.ac" />
+    <None Include="game_data\environment\chopper.ac.bak" />
+    <None Include="game_data\environment\chopper.max" />
+    <None Include="game_data\environment\chopper.mtl" />
+    <None Include="game_data\environment\chopper.obj" />
+    <None Include="game_data\environment\chopper.x" />
+    <None Include="game_data\environment\dome.ac" />
+    <None Include="game_data\environment\dome.ac.bak" />
+    <None Include="game_data\environment\dome.x" />
+    <None Include="game_data\environment\front_lights.ac" />
+    <None Include="game_data\environment\front_lights.obj" />
+    <None Include="game_data\environment\front_lights.x" />
+    <None Include="game_data\environment\seat_uvs.uvw" />
+    <None Include="game_data\explosion - Shortcut.lnk" />
+    <None Include="game_data\lightWave\Particles\explosion 1.lws" />
+    <None Include="game_data\lightWave\Particles\jet exhaust.lws" />
+    <None Include="game_data\lightWave\plane\planeXY.lwo" />
+    <None Include="packages.config" />
+    <None Include="shaders\BBbyPointAlpha_fragment.glsl" />
+    <None Include="shaders\BBbyPointAlpha_geo.glsl" />
+    <None Include="shaders\BBbyPointAlpha_vertex.glsl" />
+    <None Include="shaders\BillBoardBasicAlpha_fragment.glsl" />
+    <None Include="shaders\BillBoardBasicAlpha_vertex.glsl" />
+    <None Include="shaders\BillBoardBasic_fragment.glsl" />
+    <None Include="shaders\BillBoardBasic_vertex.glsl" />
+    <None Include="shaders\deferred_fragment.glsl" />
+    <None Include="shaders\deferred_vertex.glsl" />
+    <None Include="shaders\FXAA_fragment.glsl" />
+    <None Include="shaders\FXAA_vertex.glsl" />
+    <None Include="shaders\genericBump_fragment.glsl" />
+    <None Include="shaders\genericBump_vertex.glsl" />
+    <None Include="shaders\LightOnlyDF_fragment.glsl" />
+    <None Include="shaders\LightOnlyDF_vertex.glsl" />
+    <None Include="shaders\passthrough_fragment.glsl" />
+    <None Include="shaders\passthrough_vertex.glsl" />
+    <None Include="shaders\SolidAlphaColorOnly_fragment.glsl" />
+    <None Include="shaders\SolidAlphaColorOnly_vertex.glsl" />
+    <None Include="shaders\SolidAlphaTextured_fragment.glsl" />
+    <None Include="shaders\SolidAlphaTextured_vertex.glsl" />
+    <None Include="shaders\SphereicAlpha_fragment.glsl" />
+    <None Include="shaders\SphereicAlpha_vertex.glsl" />
+    <None Include="solidalpha_fragment.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevIL.dll" />
+    <Content Include="freeglut.dll" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0000.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0001.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0002.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0003.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0004.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0005.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0006.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0007.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0008.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0009.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0010.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0011.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0012.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0013.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0014.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0015.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0016.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0017.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0018.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0019.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0020.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0021.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0022.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0023.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0024.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0025.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0026.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0027.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0028.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0029.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0030.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0031.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0032.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0033.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0034.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0035.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0036.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0037.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0038.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0039.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0040.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0041.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0042.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0043.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0044.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0045.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0046.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0047.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0048.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0049.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0050.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0051.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0052.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0053.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0054.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0055.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0056.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0057.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0058.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0059.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0060.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0061.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0062.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0063.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0064.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0065.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0066.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0067.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0068.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0069.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0070.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0071.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0072.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0073.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0074.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0075.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0076.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0077.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0078.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0079.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0080.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0081.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0082.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0083.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0084.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0085.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0086.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0087.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0088.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0089.png" />
+    <Content Include="game_data\effects\explosion\explosion 1_rgb0090.png" />
+    <Content Include="game_data\effects\smoke_anima\0000.png" />
+    <Content Include="game_data\effects\smoke_anima\0001.png" />
+    <Content Include="game_data\effects\smoke_anima\0002.png" />
+    <Content Include="game_data\effects\smoke_anima\0003.png" />
+    <Content Include="game_data\effects\smoke_anima\0004.png" />
+    <Content Include="game_data\effects\smoke_anima\0005.png" />
+    <Content Include="game_data\effects\smoke_anima\0006.png" />
+    <Content Include="game_data\effects\smoke_anima\0007.png" />
+    <Content Include="game_data\effects\smoke_anima\0008.png" />
+    <Content Include="game_data\effects\smoke_anima\0009.png" />
+    <Content Include="game_data\effects\smoke_anima\0010.png" />
+    <Content Include="game_data\effects\smoke_anima\0011.png" />
+    <Content Include="game_data\effects\smoke_anima\0012.png" />
+    <Content Include="game_data\effects\smoke_anima\0013.png" />
+    <Content Include="game_data\effects\smoke_anima\0014.png" />
+    <Content Include="game_data\effects\smoke_anima\0015.png" />
+    <Content Include="game_data\effects\smoke_anima\0016.png" />
+    <Content Include="game_data\effects\smoke_anima\0017.png" />
+    <Content Include="game_data\effects\smoke_anima\0018.png" />
+    <Content Include="game_data\effects\smoke_anima\0019.png" />
+    <Content Include="game_data\effects\smoke_anima\0020.png" />
+    <Content Include="game_data\effects\smoke_anima\0021.png" />
+    <Content Include="game_data\effects\smoke_anima\0022.png" />
+    <Content Include="game_data\effects\smoke_anima\0023.png" />
+    <Content Include="game_data\effects\smoke_anima\0024.png" />
+    <Content Include="game_data\effects\smoke_anima\0025.png" />
+    <Content Include="game_data\effects\smoke_anima\0026.png" />
+    <Content Include="game_data\effects\smoke_anima\0027.png" />
+    <Content Include="game_data\effects\smoke_anima\0028.png" />
+    <Content Include="game_data\effects\smoke_anima\0029.png" />
+    <Content Include="game_data\effects\smoke_anima\0030.png" />
+    <Content Include="game_data\effects\smoke_anima\0031.png" />
+    <Content Include="game_data\effects\smoke_anima\0032.png" />
+    <Content Include="game_data\effects\smoke_anima\0033.png" />
+    <Content Include="game_data\effects\smoke_anima\0034.png" />
+    <Content Include="game_data\effects\smoke_anima\0035.png" />
+    <Content Include="game_data\effects\smoke_anima\0036.png" />
+    <Content Include="game_data\effects\smoke_anima\0037.png" />
+    <Content Include="game_data\effects\smoke_anima\0038.png" />
+    <Content Include="game_data\effects\smoke_anima\0039.png" />
+    <Content Include="game_data\effects\smoke_anima\0040.png" />
+    <Content Include="game_data\effects\smoke_anima\0041.png" />
+    <Content Include="game_data\effects\smoke_anima\0042.png" />
+    <Content Include="game_data\effects\smoke_anima\0043.png" />
+    <Content Include="game_data\effects\smoke_anima\0044.png" />
+    <Content Include="game_data\effects\smoke_anima\0045.png" />
+    <Content Include="game_data\effects\smoke_anima\0046.png" />
+    <Content Include="game_data\effects\smoke_anima\0047.png" />
+    <Content Include="game_data\effects\smoke_anima\0048.png" />
+    <Content Include="game_data\effects\smoke_anima\0049.png" />
+    <Content Include="game_data\effects\smoke_anima\0050.png" />
+    <Content Include="game_data\effects\smoke_anima\0051.png" />
+    <Content Include="game_data\effects\smoke_anima\0052.png" />
+    <Content Include="game_data\effects\smoke_anima\0053.png" />
+    <Content Include="game_data\effects\smoke_anima\0054.png" />
+    <Content Include="game_data\effects\smoke_anima\0055.png" />
+    <Content Include="game_data\effects\smoke_anima\0056.png" />
+    <Content Include="game_data\effects\smoke_anima\0057.png" />
+    <Content Include="game_data\effects\smoke_anima\0058.png" />
+    <Content Include="game_data\effects\smoke_anima\0059.png" />
+    <Content Include="game_data\effects\smoke_anima\0060.png" />
+    <Content Include="game_data\effects\smoke_anima\0061.png" />
+    <Content Include="game_data\effects\smoke_anima\0062.png" />
+    <Content Include="game_data\effects\smoke_anima\0063.png" />
+    <Content Include="game_data\effects\smoke_anima\0064.png" />
+    <Content Include="game_data\effects\smoke_anima\0065.png" />
+    <Content Include="game_data\effects\smoke_anima\0066.png" />
+    <Content Include="game_data\effects\smoke_anima\0067.png" />
+    <Content Include="game_data\effects\smoke_anima\0068.png" />
+    <Content Include="game_data\effects\smoke_anima\0069.png" />
+    <Content Include="game_data\effects\smoke_anima\0070.png" />
+    <Content Include="game_data\effects\smoke_anima\0071.png" />
+    <Content Include="game_data\effects\smoke_anima\0072.png" />
+    <Content Include="game_data\effects\smoke_anima\0073.png" />
+    <Content Include="game_data\effects\smoke_anima\0074.png" />
+    <Content Include="game_data\effects\smoke_anima\0075.png" />
+    <Content Include="game_data\effects\smoke_anima\0076.png" />
+    <Content Include="game_data\effects\smoke_anima\0077.png" />
+    <Content Include="game_data\effects\smoke_anima\0078.png" />
+    <Content Include="game_data\effects\smoke_anima\0079.png" />
+    <Content Include="game_data\effects\smoke_anima\0080.png" />
+    <Content Include="game_data\effects\smoke_anima\0081.png" />
+    <Content Include="game_data\effects\smoke_anima\0082.png" />
+    <Content Include="game_data\effects\smoke_anima\0083.png" />
+    <Content Include="game_data\effects\smoke_anima\0084.png" />
+    <Content Include="game_data\effects\smoke_anima\0085.png" />
+    <Content Include="game_data\effects\smoke_anima\0086.png" />
+    <Content Include="game_data\effects\smoke_anima\0087.png" />
+    <Content Include="game_data\effects\smoke_anima\0088.png" />
+    <Content Include="game_data\effects\smoke_anima\0089.png" />
+    <Content Include="game_data\effects\smoke_anima\0090.png" />
+    <Content Include="game_data\environment\2k_moon.jpg" />
+    <Content Include="game_data\environment\boobs.png" />
+    <Content Include="game_data\environment\chopper_texture.png" />
+    <Content Include="game_data\environment\cockpit.png" />
+    <Content Include="game_data\environment\galaxy_1.png" />
+    <Content Include="game_data\environment\N-MAP.png" />
+    <Content Include="game_data\environment\navBall.png" />
+    <Content Include="game_data\environment\phobosmirror.png" />
+    <Content Include="game_data\environment\phobosmirror_NORM.png" />
+    <Content Include="game_data\environment\seat.png" />
+    <Content Include="game_data\environment\space_Map.jpg" />
+    <Content Include="game_data\environment\space_Map.png" />
+    <Content Include="game_data\environment\test.png" />
+    <Content Include="game_data\environment\test_2.png" />
+    <Content Include="game_data\environment\transDisc.png" />
+    <Content Include="game_data\environment\white.png" />
+    <Content Include="ILU.dll" />
+    <Content Include="ILUT.dll" />
+    <Content Include="SlimDX.dll" />
+    <Content Include="Tao.DevIl.dll" />
+    <Content Include="Tao.FreeGlut.dll" />
+    <Content Include="Tao.OpenGl.dll" />
+    <Content Include="Tao.Platform.Windows.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.vb" />
+    <Compile Include="Mods\modAlphaDepthManager.vb" />
+    <Compile Include="Mods\modEffectClasses.vb" />
+    <Compile Include="Mods\modLightingGlobals.vb" />
+    <Compile Include="Mods\mod_FBO_MAIN.vb" />
+    <Compile Include="Mods\mod_FOB_WORKERS.vb" />
+    <Compile Include="Mods\mod_Globals.vb" />
+    <Compile Include="Mods\mod_HUD.vb" />
+    <Compile Include="Mods\mod_Matrix.vb" />
+    <Compile Include="Mods\mod_OpenGL.vb" />
+    <Compile Include="Mods\mod_RENDER.vb" />
+    <Compile Include="Mods\mod_Textures.vb" />
+    <Compile Include="Mods\mod_X_MODEL.vb" />
+    <Compile Include="shaders\Shader Forms\frmEditFrag.Designer.vb">
+      <DependentUpon>frmEditFrag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="shaders\Shader Forms\frmEditFrag.vb" />
+    <Compile Include="shaders\Shader Forms\frmShaderEditor.Designer.vb">
+      <DependentUpon>frmShaderEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="shaders\Shader Forms\frmShaderEditor.vb" />
+    <Compile Include="shaders\Shader Forms\frmShaderError.Designer.vb">
+      <DependentUpon>frmShaderError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="shaders\Shader Forms\frmShaderError.vb" />
+    <Compile Include="shaders\Shader Forms\shader_loader.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shaders\Shader Forms\frmEditFrag.resx">
+      <DependentUpon>frmEditFrag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shaders\Shader Forms\frmShaderEditor.resx">
+      <DependentUpon>frmShaderEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shaders\Shader Forms\frmShaderError.resx">
+      <DependentUpon>frmShaderError.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="game_data\e_ships\" />
+    <Folder Include="game_data\ships\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
